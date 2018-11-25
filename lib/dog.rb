@@ -10,8 +10,8 @@ class Dog
   end
   
   def self.all
-    @@all.each do |a,b|
-      puts b
+    @@all.each do |dog|
+      binding.pry
     end
   end
   
