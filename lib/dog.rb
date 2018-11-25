@@ -10,7 +10,7 @@ class Dog
   end
   
   def self.all
-    @@all.each do |dog_name|
+    @@all.each do |a,b|
       binding.pry
     end
   end
