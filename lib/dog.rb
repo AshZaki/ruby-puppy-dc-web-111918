@@ -14,9 +14,7 @@ class Dog
   end
   
   def self.clear_all
-    @@all.each do |dog_name|
      @@all.clear
-    end
     return @@all
   end
   
