@@ -15,7 +15,7 @@ class Dog
   
   def self.clear_all
     @@all.each do |dog_name|
-     @@all = dog_name.clear
+     @@all.clear
     end
     return @@all
   end
