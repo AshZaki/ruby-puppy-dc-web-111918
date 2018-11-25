@@ -11,6 +11,7 @@ class Dog
   
   def self.all
     @@all.each do |a,b|
+      puts b
     end
   end
   
