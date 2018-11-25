@@ -11,7 +11,6 @@ class Dog
   
   def self.all
     @@all.each do |a,b|
-      binding.pry
     end
   end
   
